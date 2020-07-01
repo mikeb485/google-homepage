@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 102px;
+    padding: 45px;
     margin: 0 auto;
     height: 30em;
     position: relative;
@@ -27,6 +27,7 @@ body {
     display: flex;
     margin: 28px;
     padding-left: 45px;
+    font-size: 16px;
 }
 .outside {
     display: flex;
@@ -48,4 +49,20 @@ body {
     width: 20px;
     margin-top: 3px;
     padding-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+.nav-left a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: .75;
+}
+.nav-left {
+    margin: 7px 0px 0px 10px;
+    padding-top: .9%;
+}
+.nav-left a:hover {
+    text-decoration: underline;
 }
