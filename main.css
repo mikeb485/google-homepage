@@ -102,7 +102,7 @@ a {
     opacity: 1;
 }
 #sign-in {
-    background:-moz-linear-gradient(top,#4387fd,#4683ea);
+    background:-webkit-linear-gradient(top,#4387fd,#4683ea);
     font-weight: bold;
     color: white;
     line-height: 28px;
@@ -151,8 +151,10 @@ button:hover {
    display: inline-block;
     margin: 345px 0px 0px 0px;
     font-size: 14px;
-    line-height: 45px;
+    line-height: 50px;
     width: 100%;
+    bottom: 0px;
+    height: 45px;
 }
 footer {
     background-color: #f2f2f2;
@@ -166,11 +168,10 @@ footer {
     padding-left: 25px;
 }
 .right {
-    position: relative;
-    display: inline-block;
-    left: 1365px;
+   position: relative;
     color: #5f6368;
-    padding-right: 20px;
+    padding-right: 30px;
+    float: right;
 }
 .left:hover {
     text-decoration: underline;
